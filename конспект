@@ -1,0 +1,21 @@
+LAMDA - анонимная функция
+
+f(x) = 2x + 5
+lambda x: 2x + 5
+
+x = lamda e: e
+print(x(9)) --> 9
+
+map()
+filter()
+q = [i for i in range(1, 11)]
+w = filter(lambda x: x % 2 == 0, q)
+print(list(w))
+
+
+REQUESTS
+requests.get()
+requests.post()
+requests.put()
+requests.patch()
+requests.delete()
